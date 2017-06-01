@@ -65,6 +65,8 @@ import org.androidannotations.annotations.sharedpreferences.Pref;
 @EActivity(R.layout.activity_main)
 public class MainActivity extends AppCompatActivity implements ServiceConnection {
 
+    //test travis ci comment
+
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final String OTAP_PREFIX = "OTAP";
 

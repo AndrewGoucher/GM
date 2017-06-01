@@ -32,6 +32,7 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/production/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/production/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/production/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/production/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/production/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/production/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/productionDebug/res" type="java-resource" />
@@ -41,13 +42,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/productionDebug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/productionDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/productionDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/production/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/production/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/production/debug" isTestSource="true" generated="true" />
@@ -55,6 +49,13 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/production/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/production/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/production/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProductionDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/production/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/production/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/production/assets" type="java-resource" />
@@ -113,6 +114,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
@@ -136,23 +138,32 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="firebase-analytics-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="rest-spring-api-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="firebase-core-10.0.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-tasks-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="transition-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="androidannotations-4.0.0" level="project" />
     <orderEntry type="library" exported="" name="design-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="spring-android-rest-template-2.0.0.M3" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="firebase-database-connection-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="jackson-annotations-2.7.0" level="project" />
     <orderEntry type="library" exported="" name="jcodemodel-2.8.0" level="project" />
     <orderEntry type="library" exported="" name="wolk-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="rest-spring-4.0.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-fragment-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="firebase-iid-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="androidannotations-api-4.0.0" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-2.7.5" level="project" />
     <orderEntry type="library" exported="" name="restandroid-1.1.9.PRODUCTION" level="project" />
     <orderEntry type="library" exported="" name="jackson-databind-2.7.5" level="project" />
+    <orderEntry type="library" exported="" name="firebase-analytics-impl-10.0.1" level="project" />
+    <orderEntry type="library" exported="" name="firebase-common-10.0.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-basement-10.0.1" level="project" />
+    <orderEntry type="library" exported="" name="firebase-database-10.0.1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="annotations-2.0.3" level="project" />
