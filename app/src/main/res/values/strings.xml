@@ -146,6 +146,13 @@
     <string name="mode_pedometer">Connected as: Pedometer</string>
     <string name="mode_compass">Connected as: Compass</string>
 
+    <!--READINGS UI-->
+    <string name="read_light">Light:</string>
+    <string name="read_humidity">Humidity:</string>
+    <string name="read_temperature">Temperature:</string>
+    <string name="set_range_button">Set Ranges</string>
+
+
     <!--CHANGE PASSWORD-->
     <string name="change_password_activity_tile">Password change</string>
     <string name="change_password_current_password">Current password</string>
