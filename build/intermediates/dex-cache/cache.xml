@@ -3,66 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/526185967a05ffcd370591d93de2fb7ae9f3967f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_16bfb0ebf1e17566bbffae450caf59ab07c23f85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/incremental-classes/production/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="01ab1a3249e368f6e62a0c4e310fd442897ea0ef">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10000/instant-run-bootstrap_92a96d56210b8388875d11ba928215315959baf2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/1c03673d096f2066c387a53d1d1387c95b3da166/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_2dd40500a529d0eec2e40922784a7e27c654232a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/b665b8670390b91fcf32c26b0da44f4f93e8efad/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_0758177d380e89d5c162ba68517fad34e1c358eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/99fa8f11063466af19bb1f04bd597301efa18d5f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_20b5967350e5111b94045e4fc1bbad1b977eff10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/9a4e26f6d299f03691c129857693df7fe3ec1203/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_3297ea46e67b873ffcbb16d676e2dc5d1e0091d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/5e02ad8f923e0059bcde590eb3418b6b1c33c59a/output/jars/classes.jar"
+        jar="/Users/Nolan/.android/build-cache/9340e68f32c330228ea2964adb3d28b26256e336/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_a62de7ae6f9f57c263a87f80d78fa164733a70f6/classes.dex" />
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_549c72a3882e5020077212f0a160b8b41373af07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/.android/build-cache/579a7e22fc2e709d1472f63b4c5e33f61edb646c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_dfffe355b08d75060f9d02277547d368b38c460f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,21 +30,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/9f5a8570d91651eb70f902af3f5adb9306c94200/output/jars/classes.jar"
+        jar="/Users/Nolan/.android/build-cache/44a51d6e73f3243a4d3d4e989c7bd0b1da3febad/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_e77c180e83736ebfe78a705f36b63e5abbd8d10b/classes.dex" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_1905e8c271b1077607d24c7f5c4f9f5e08361785/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/570fb65d83fe60367169d5e7a64ce80536787686/output/jars/classes.jar"
+        jar="/Users/Nolan/.android/build-cache/aa77d0ebce8c8918e0062020e9b5ec34869ea467/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_6c472441360244f5a41e0dac853cfde4e8c7e962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/.android/build-cache/198c3278d06cfed7b9e30acf407d35225be5b620/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_5a6abfca7bc61006b3c1b734978e8112df106d02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/incremental-classes/production/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ab1a3249e368f6e62a0c4e310fd442897ea0ef">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10000/instant-run-bootstrap_92a96d56210b8388875d11ba928215315959baf2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/.android/build-cache/c251c7cec92185bc1b3ada25075680eec1c12f2b/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_c62cc25852865ae51c6f6de32ae35383dea03b4e/classes.dex" />
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_6c21015c89da97bcf2222f0feaeae9b8e5e77ee2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/.android/build-cache/a7c0794b99c995a03871a3d2ea872a8e54369ab0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_438c8086b3fb3c5ddc58174203c01b22fbc6b210/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Nolan/.android/build-cache/fb1de2e9c8429bbc67dadabf782ad916344fc247/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_2fe8b5c5b0569b4e8c5f8805d3624aa6194f3a58/classes.dex" />
     </item>
 
 </items>

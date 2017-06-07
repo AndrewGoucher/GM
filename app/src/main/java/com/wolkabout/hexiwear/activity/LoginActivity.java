@@ -28,6 +28,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.wolkabout.hexiwear.R;
 import com.wolkabout.hexiwear.util.Dialog;
 import com.wolkabout.hexiwear.view.Input;
@@ -201,6 +203,14 @@ public class LoginActivity extends AppCompatActivity {
         } catch (Exception e) {
             Toast.makeText(LoginActivity.this, "Failed to verify email.", Toast.LENGTH_LONG).show();
         }
+    }
+
+    //test Database
+    public void sendToDB(View view) {
+        //testing writing to database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Hello World!");
     }
 
 }

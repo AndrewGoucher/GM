@@ -37,6 +37,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.wolkabout.hexiwear.R;
 import com.wolkabout.hexiwear.adapter.DeviceListAdapter;
 import com.wolkabout.hexiwear.model.BluetoothDeviceWrapper;
@@ -64,8 +66,6 @@ import org.androidannotations.annotations.sharedpreferences.Pref;
 @OptionsMenu(R.menu.menu_main)
 @EActivity(R.layout.activity_main)
 public class MainActivity extends AppCompatActivity implements ServiceConnection {
-
-    //test travis ci comment
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final String OTAP_PREFIX = "OTAP";
@@ -292,4 +292,6 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
             }
         });
     }
+
+
 }
