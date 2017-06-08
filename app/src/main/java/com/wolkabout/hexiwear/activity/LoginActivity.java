@@ -28,8 +28,11 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.wolkabout.hexiwear.R;
 import com.wolkabout.hexiwear.util.Dialog;
 import com.wolkabout.hexiwear.view.Input;
@@ -53,8 +56,15 @@ import org.androidannotations.rest.spring.annotations.RestService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.client.HttpStatusCodeException;
 
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
 @EActivity(R.layout.activity_login)
 public class LoginActivity extends AppCompatActivity {
+
+    //testing writing to database
+    DatabaseReference db = FirebaseDatabase.getInstance().getReference("users");
 
     public static final String TAG = LoginActivity.class.getSimpleName();
 
@@ -206,11 +216,73 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     //test Database
-    public void sendToDB(View view) {
-        //testing writing to database
+    void sendToDB(View view) {
+        //db.setValue("test2");
+
+        String userID = "Nolan";
+        double temp = 32.8;
+        double humidity = 53.0;
+        double pressure = 287.5;
+        Map newRecord = toMap(userID, temp, humidity, pressure);
+        writeNewRecord(userID, temp, humidity, pressure);
+        //db.setValue(newRecord);
+        /*
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
         myRef.setValue("Hello World!");
+
+
+        // Read from the database
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                String value = dataSnapshot.getValue(String.class);
+                Log.d(TAG, "Value is: " + value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+                Log.w(TAG, "Failed to read value.", error.toException());
+            }
+        });
+        */
+
     }
+
+    //write new record
+    void writeNewRecord(String userID, double temperature, double humidity, double pressure) {
+        Record r = new Record(temperature, humidity, pressure);
+        //use date/time as key
+        Date dt = new java.util.Date();
+        String dateTime = dt.toString();
+        String time = "20170608";
+        db.child(userID).child(dateTime).setValue(r);
+
+    }
+
+    //write new record with hashMap
+    Map<String, Object> toMap(String userId, double temperature, double humidity, double pressure) {
+        Record r = new Record(temperature, humidity, pressure);
+        HashMap<String, Object> map = new HashMap<>();
+        map.put(userId, r);
+        return map;
+    }
+}
+
+//Record class
+class Record {
+    double temperature, humidity, pressure;
+    public Record() {
+        //default constructor
+    }
+    public Record(double temperature, double humidity, double pressure) {
+        this.temperature = temperature;
+        this.humidity = humidity;
+        this.pressure = pressure;
+    }
+    //get methods to be added
 
 }
