@@ -37,6 +37,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.wolkabout.hexiwear.R;
 import com.wolkabout.hexiwear.adapter.DeviceListAdapter;
 import com.wolkabout.hexiwear.model.BluetoothDeviceWrapper;
@@ -266,7 +267,10 @@ public class MainActivity extends AppCompatActivity implements ServiceConnection
         } else if (device.getName().contains(OTAP_PREFIX)) {
             FirmwareSelectActivity_.intent(this).device(device).start();
         } else {
-            ReadingsActivity_.intent(this).flags(Intent.FLAG_ACTIVITY_SINGLE_TOP).device(device).start();
+            //ReadingsActivity_.intent(this).flags(Intent.FLAG_ACTIVITY_SINGLE_TOP).device(device).start();
+            Intent intent=new Intent(this,MyActivity.class);
+            intent.putExtra("device",new Gson().toJson(device));
+            startActivity(intent);
         }
     }
 
