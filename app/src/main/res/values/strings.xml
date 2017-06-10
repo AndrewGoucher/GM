@@ -87,6 +87,7 @@
     <string name="readings_time_set_success">Time set successfully.</string>
     <string name="readings_time_set_fail">Failed to set time.</string>
     <string name="readings_setting_time">Setting time …</string>
+    <string name="connecting">Connecting...</string>
 
     <!--SETTINGS-->
     <string name="preferences_activity_title">Settings</string>
