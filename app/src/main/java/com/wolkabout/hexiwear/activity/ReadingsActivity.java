@@ -167,7 +167,7 @@ public class ReadingsActivity extends AppCompatActivity implements ServiceConnec
             dialog.shortToast(R.string.failed_to_unpair);
         }
     }
-
+    /*
     @Receiver(actions = BluetoothService.SHOW_TIME_PROGRESS, local = true)
     void showProgressForSettingTime() {
         if (progressBar == null) {
@@ -176,7 +176,7 @@ public class ReadingsActivity extends AppCompatActivity implements ServiceConnec
 
         progressBar.setVisibility(View.VISIBLE);
     }
-
+*/
     @Receiver(actions = BluetoothService.HIDE_TIME_PROGRESS, local = true)
     void hideProgressForSettingTime() {
         if (progressBar == null) {

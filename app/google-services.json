@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474162872049",
+    "firebase_url": "https://gmfirebaseproject-11e72.firebaseio.com",
+    "project_id": "gmfirebaseproject-11e72",
+    "storage_bucket": "gmfirebaseproject-11e72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474162872049:android:647a0ea43110a502",
+        "android_client_info": {
+          "package_name": "com.wolkabout.hexiwear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474162872049-lcvf0d9c7vku1uikqhkctucj28ooavpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wolkabout.hexiwear",
+            "certificate_hash": "2d0932276b6e7a82a293779307ab9f903fa7ed86"
+          }
+        },
+        {
+          "client_id": "474162872049-dn0s2bs11f8o4v63faspfmnhgpn4q5lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYDlzuF7H5APuFk_wzkhBPF5FUb7MqoJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474162872049-dn0s2bs11f8o4v63faspfmnhgpn4q5lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

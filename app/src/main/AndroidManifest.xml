@@ -47,8 +47,7 @@
             android:label="@string/registration_activity_title"
             android:screenOrientation="portrait"
             android:theme="@style/Blues"
-            android:windowSoftInputMode="stateHidden"/>
-
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".activity.ReadingsActivity_"
             android:label="@string/readings_activity_title"
@@ -73,8 +72,8 @@
         <activity
             android:name=".activity.PasswordChangeActivity_"
             android:label="@string/change_password_activity_tile"
-            android:windowSoftInputMode="stateHidden"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
 
         <service
             android:name=".service.BluetoothService_"
@@ -86,7 +85,8 @@
             android:name=".service.NotificationService_"
             android:exported="false" />
 
-
+        <activity android:name=".activity.MyActivity" />
+        <activity android:name=".activity.Range"></activity>
     </application>
 
 </manifest>

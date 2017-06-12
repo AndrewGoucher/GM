@@ -3,93 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/526185967a05ffcd370591d93de2fb7ae9f3967f/output/jars/classes.jar"
+        jar="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\libs\gson-2.8.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_16bfb0ebf1e17566bbffae450caf59ab07c23f85/classes.dex" />
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\build\intermediates\transforms\dex\production\debug\folders\1000\2\gson-2.8.1_4837044d52277fe7b58c05930eb9a88fd04cf22c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/incremental-classes/production/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\build\intermediates\incremental-runtime-classes\production\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="01ab1a3249e368f6e62a0c4e310fd442897ea0ef">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10000/instant-run-bootstrap_92a96d56210b8388875d11ba928215315959baf2/classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\build\intermediates\transforms\dex\production\debug\folders\1000\10000\instant-run_2576154c42ad763c06f03e593cffd8e64ba4d8f2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/1c03673d096f2066c387a53d1d1387c95b3da166/output/jars/classes.jar"
+        jar="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\build\intermediates\incremental-classes\production\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_2dd40500a529d0eec2e40922784a7e27c654232a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/b665b8670390b91fcf32c26b0da44f4f93e8efad/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_0758177d380e89d5c162ba68517fad34e1c358eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/99fa8f11063466af19bb1f04bd597301efa18d5f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_20b5967350e5111b94045e4fc1bbad1b977eff10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/9a4e26f6d299f03691c129857693df7fe3ec1203/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_3297ea46e67b873ffcbb16d676e2dc5d1e0091d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/5e02ad8f923e0059bcde590eb3418b6b1c33c59a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_a62de7ae6f9f57c263a87f80d78fa164733a70f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/incremental-runtime-classes/production/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10000/instant-run_fcc9656afa0a5d26e6e89521cdbc9adb2efade54/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/9f5a8570d91651eb70f902af3f5adb9306c94200/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_e77c180e83736ebfe78a705f36b63e5abbd8d10b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Nolan/.android/build-cache/570fb65d83fe60367169d5e7a64ce80536787686/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/Nolan/AndroidStudioProjects/GM/app/build/intermediates/transforms/dex/production/debug/folders/1000/10/classes_c62cc25852865ae51c6f6de32ae35383dea03b4e/classes.dex" />
+        sha1="e0a034baf71f5e317d16924b15d14a922d3d24ca">
+        <dex dex="C:\Users\Owner\StudioProjects\CS3130-Ui_read\app\build\intermediates\transforms\dex\production\debug\folders\1000\10000\instant-run-bootstrap_48763f73d0ee98226f469b7039c9fc1b7af6e627\classes.dex" />
     </item>
 
 </items>
